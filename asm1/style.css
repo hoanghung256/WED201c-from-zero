@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Top{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: fit-content;
+}
+.Top img{
+    height: 80%;
+    justify-self: center;
+}
+
+.Top p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.Menu ul{
+    margin: 0;
+    background-color:rgb(10, 166, 190);
+    color: beige;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.Body_1{
+    display: grid;
+    grid-template-columns: 3fr 5fr 3fr;
+    gap: 15px;
+}
+
+.Body_1 img{
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+}
+
+.Body_1 h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(42, 186, 196);
+    font-size:large;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+.Registration h4{
+    margin: 10px 0 10px 0;
+}
+.Registration button{
+    display: block; 
+    margin-top: 10px;
+    color:azure;
+    background-color: rgba(246, 162, 6, 0.891);
+    border: 5px solid orange; 
+    border-radius: 5px;
+}
+
+.Body_2 h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(42, 186, 196);
+    font-size:medium;
+    font-weight: 400;
+}
+
+.Body_2 .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.Body_2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.Body_2 .img_info{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    gap: 30px;
+}
+
+.Body_2 h4{
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.Body_2 p{
+    margin-top: 10px;
+    font-size: smaller;
+}
+
+.Body_3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Body_3 h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.Body_3 button{
+    background-color: aqua;
+}
+
+.bottom{
+    background-color: aqua;
+    text-align: center;
+}
+
+.bottom p{
+    margin: 0;
+}
